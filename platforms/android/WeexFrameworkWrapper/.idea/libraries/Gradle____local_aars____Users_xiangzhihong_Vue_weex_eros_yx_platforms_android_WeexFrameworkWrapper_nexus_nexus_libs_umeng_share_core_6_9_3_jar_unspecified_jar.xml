@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="Gradle: __local_aars__:/Users/xiangzhihong/Vue/weex/eros-yx/platforms/android/WeexFrameworkWrapper/nexus/nexus/libs/umeng-share-core-6.9.3.jar:unspecified@jar">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/nexus/nexus/libs/umeng-share-core-6.9.3.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
