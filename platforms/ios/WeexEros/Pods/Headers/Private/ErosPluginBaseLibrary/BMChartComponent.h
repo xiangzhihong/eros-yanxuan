@@ -1,1 +1,0 @@
-../../../ErosPluginBaseLibrary/Source/BMComponent/Chart/BMChartComponent.h

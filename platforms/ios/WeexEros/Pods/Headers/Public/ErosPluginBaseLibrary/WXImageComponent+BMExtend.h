@@ -1,1 +1,0 @@
-../../../ErosPluginBaseLibrary/Source/BMWeexExtension/WXImageComponent+BMExtend.h

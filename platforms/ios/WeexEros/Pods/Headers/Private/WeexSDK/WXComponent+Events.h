@@ -1,1 +1,0 @@
-../../../WeexSDK/WeexSDK/Sources/Events/WXComponent+Events.h

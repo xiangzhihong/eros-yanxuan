@@ -1,1 +1,0 @@
-../../../ErosPluginBaseLibrary/Source/BMModule/BrowserImg/PhotoBrowser/UIView+PBSnapshot.h

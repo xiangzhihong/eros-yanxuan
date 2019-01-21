@@ -1,1 +1,0 @@
-../../../WeexSDK/WeexSDK/Sources/Debug/WXDebugTool.h

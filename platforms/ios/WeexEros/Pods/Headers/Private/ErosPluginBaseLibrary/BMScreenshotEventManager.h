@@ -1,1 +1,0 @@
-../../../ErosPluginBaseLibrary/Source/BMManager/ScreenshotNotification/BMScreenshotEventManager.h

@@ -1,1 +1,0 @@
-../../../ErosPluginBaseLibrary/Source/BMModule/BrowserImg/BMBrowserImgModule.h

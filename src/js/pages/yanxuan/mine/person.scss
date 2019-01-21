@@ -1,0 +1,69 @@
+.iconfont {
+    font-family: iconfont;
+}
+
+.wrapper {
+    background-color: #f4f4f4;
+    padding-top: 15px;
+}
+
+.p-photo {
+  position: absolute;
+  right: 60px;
+  height: 50px;
+  width: 50px;
+  border-radius: 130px;
+}
+
+.p-msg-point {
+  position: absolute;
+  right: 55px;
+  height: 12px;
+  width: 12px;
+  top: 20px;
+  border-radius: 130px;
+}
+
+.cell-button {
+    margin-bottom: 18px;
+}
+
+.p-box {
+  padding: 20px;
+  background-color: #fff;
+  justify-content: center;
+  height: 98px;
+}
+
+.p-txt {
+  font-size: 30px;
+  color: #000000;
+}
+
+.i-box-in {
+  position: absolute;
+  top: 34px;
+  right: 30px;
+  color: #777777;
+}
+
+.border-bottom {
+  border-bottom-width: 1px;
+  border-bottom-color: rgba(0, 0, 0, .15);
+  border-bottom-style: hidden;
+}
+
+.status-bar {
+    width: 750px;
+    height: 40px;
+    background-color:#C6B27E;
+}
+
+.l-o-c {
+  background-color: #ffffff;
+  width: 750px;
+  height: 90px;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,1 +1,0 @@
-../../../ErosPluginBaseLibrary/Source/BMWeexExtension/WXSDKInstance+BMExtend.h

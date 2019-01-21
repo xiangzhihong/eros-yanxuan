@@ -1,1 +1,0 @@
-../../../ErosPluginBaseLibrary/Source/BMWeexExtension/WXScrollerComponent+BMExtend.h

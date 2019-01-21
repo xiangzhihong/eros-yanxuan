@@ -1,1 +1,0 @@
-../../../WeexSDK/WeexSDK/Sources/Component/WXLoadingIndicator.h

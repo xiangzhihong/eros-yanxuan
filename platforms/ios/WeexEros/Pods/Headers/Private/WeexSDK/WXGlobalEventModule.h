@@ -1,1 +1,0 @@
-../../../WeexSDK/WeexSDK/Sources/Module/WXGlobalEventModule.h

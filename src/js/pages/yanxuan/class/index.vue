@@ -1,0 +1,103 @@
+<template>
+    <div>
+        <div class="status-bar" :style="{'height': statusHeight}"></div>
+        <class-header></class-header>
+        <div style="flex-direction: row;width: 750px;flex: 1">
+            <div class="class-list">
+                <scroller class="" show-scrollbar="false">
+                    <div class="j-uline" ref="jcLine"></div>
+                    <text class="class-txt" v-for="(i,index) in classes" :class="[actIndex === index ? 'c-act' : '']" @click="chooseClass(index)" :ref="'class_' + index">{{i}}</text>
+                </scroller>
+            </div>
+            <scroller class="main-list" append="tree" paging-enabled="true" @scroll="onscroll" offset-accuracy="0" show-scrollbar="false" ref="scroll" id="scroll">
+                <div style="min-height: 1131px;" v-for="(item,index) in classes.length" @appear="appear(index)">
+                    <image class="ad-img" resize="cover" src="http://yanxuan.nosdn.127.net/3ebd7addcc0d101d116052a57cec2f16.png"></image>
+                    <text class="sub-tlt"> --- 推荐区分类 --- </text>
+                    <div class="sub-box">
+                        <div class="sub-i" v-for="i in subclasses" @click="jumpTopic()">
+                            <image class="i-img" resize="contain" :src="i.img"></image>
+                            <text class="i-name">{{i.name}}</text>
+                        </div>
+                    </div>
+                </div>
+            </scroller>
+        </div>
+    </div>
+</template>
+<script>
+import refresher from '../components/refresh';
+import header from './header';
+import { CLASSES, SUBCLASSES } from './config'
+const dom = weex.requireModule('dom');
+const animation = weex.requireModule('animation')
+
+export default {
+    components: {
+        'refresher': refresher,
+        'class-header': header,
+    },
+    created() {
+        this.init()
+    },
+    mounted() {
+        this.$nextTick(() => {
+            dom.getComponentRect(this.$refs.scroll, (data) => {
+                this.scrollHeight = data.size.height
+            })
+        })
+    },
+    data() {
+        return {
+            classes: [],
+            subclasses: [],
+            actIndex: 0,
+            scrollHeight: 0,
+            statusHeight: Number.parseInt(this.statusBarHeight || weex.config.env.statusBarHeight || 40)
+        }
+    },
+    methods: {
+
+        init() {
+            this.getClasses()
+            this.getSubclasses()
+        },
+        getClasses() {
+            this.classes = CLASSES
+        },
+        getSubclasses() {
+            this.subclasses = SUBCLASSES
+        },
+        onscroll(e) {
+            let formatOffset = Math.abs(e.contentOffset.y)
+        },
+        chooseClass(index) {
+            this.actIndex = index
+            animation.transition(this.$refs.jcLine, {
+                styles: {
+                    transform: 'translateY(' + (92 * index) + 'px)',
+                },
+                duration: 200,
+                timingFunction: 'ease',
+                delay: 0
+            }, function() {});
+        },
+        appear(index) {
+            console.log(index);
+            this.chooseClass(index)
+        },
+        jumpTopic() {
+            this.$router.open({
+                name:'topic'
+            })
+        },
+        jumpWeb(url) {
+            this.$router.toWebView({
+                url: url,
+                title: '',
+                navShow: true,
+            })
+        }
+    }
+}
+</script>
+<style lang="sass" src="./index.scss"></style>

@@ -1,1 +1,0 @@
-../../../ErosPluginBaseLibrary/Source/BMController/ScanQR/BMScanQRViewController.h

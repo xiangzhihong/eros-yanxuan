@@ -1,0 +1,106 @@
+.iconfont {
+    font-family: iconfont;
+}
+
+.wrapper {
+    background-color: #F2F2F3;
+    width: 750px;
+}
+
+.l-logo {
+    margin-top: 100px;
+    height: 120px;
+    width: 750px;
+    align-content: center;
+}
+
+.l-container {
+  top: 600px;
+  align-content: center;
+  margin-left: 30px;
+  margin-right: 30px;
+
+}
+
+.l-image {
+  height: 45px;
+  width: 45px;
+  justify-content: center;
+  align-items: center;
+}
+
+.l-phone {
+  height: 80px;
+  width: 680px;
+  background-color: #B02A2F;
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+  flex-direction:row;
+  align-self: center;
+}
+
+
+.l-email {
+  height: 80px;
+  width: 680px;
+  margin-top: 20px;
+  background-color: #ffffff;
+  border-radius: 4px;
+  border-color: #B02A2F;
+  border-width: 1px;
+  justify-content: center;
+  align-items: center;
+  flex-direction:row;
+  align-self: center;
+}
+
+.txt-tag {
+  color: #ffffff;
+  font-size: 32px;
+  padding: 5px;
+  align-items: center;
+}
+
+.txt-reg {
+  color: #777777;
+  font-size: 28px;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+}
+
+.l-third {
+  top: 680px;
+  height: 40px;
+  flex-direction:row;
+  align-self: center;
+}
+
+.l-t {
+  height: 80px;
+  flex-direction:row;
+  align-self: center;
+}
+
+.l-t-image {
+  height: 45px;
+  width: 45px;
+  align-self: center;
+}
+
+
+.l-t-txt {
+  color: #777777;
+  font-size: 26px;
+  margin-left: 10px;
+  align-self: center;
+}
+
+.l-line {
+  color: #777777;
+  font-size: 30px;
+  margin-left: 30px;
+  margin-right: 20px;
+}

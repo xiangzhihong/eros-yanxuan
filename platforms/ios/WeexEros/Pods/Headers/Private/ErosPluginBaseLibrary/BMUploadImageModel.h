@@ -1,1 +1,0 @@
-../../../ErosPluginBaseLibrary/Source/BMModule/Camera/BMUploadImageModel.h
