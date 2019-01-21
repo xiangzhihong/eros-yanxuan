@@ -40,6 +40,9 @@ $ open WeexEros.xcworkspace // 自动打开项目
 - 关闭调试，拦截器，打开热更新
 - 重新 build app
 
+## 效果
+![ABC](https://github.com/xiangzhihong/eros-yanxuan/blob/master/screen/0.jpg) 
+
 ## Question
 运行过程中出现问题在以下地址解决方法，如果没有找到，还请给我们提 issue。
 
