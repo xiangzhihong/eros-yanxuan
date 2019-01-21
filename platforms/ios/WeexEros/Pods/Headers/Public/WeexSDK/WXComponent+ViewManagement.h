@@ -1,0 +1,1 @@
+../../../WeexSDK/WeexSDK/Sources/View/WXComponent+ViewManagement.h

@@ -1,0 +1,1 @@
+../../../ErosPluginBaseLibrary/Source/BMComponent/Text/BMTextComponent.h

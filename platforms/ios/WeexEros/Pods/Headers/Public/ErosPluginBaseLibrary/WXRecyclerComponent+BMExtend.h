@@ -1,0 +1,1 @@
+../../../ErosPluginBaseLibrary/Source/BMWeexExtension/WXRecyclerComponent+BMExtend.h

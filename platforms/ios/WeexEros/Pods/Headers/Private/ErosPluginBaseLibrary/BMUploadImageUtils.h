@@ -1,0 +1,1 @@
+../../../ErosPluginBaseLibrary/Source/BMManager/Image/BMUploadImageUtils.h

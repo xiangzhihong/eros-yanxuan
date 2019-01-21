@@ -1,0 +1,1 @@
+../../../ErosPluginBaseLibrary/Source/BMManager/Handler/BMCheckUpdateProtocol.h

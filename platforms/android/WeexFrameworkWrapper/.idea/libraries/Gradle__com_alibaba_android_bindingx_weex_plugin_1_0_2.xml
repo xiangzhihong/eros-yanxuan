@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.alibaba.android:bindingx_weex_plugin-1.0.2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/bindingx_weex_plugin-1.0.2.aar/8e9cc8ebeef2ad06cf822fecc549877a/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/bindingx_weex_plugin-1.0.2.aar/8e9cc8ebeef2ad06cf822fecc549877a/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.alibaba.android/bindingx_weex_plugin/1.0.2/cc249563884ecf35dc5e5decac0332a4c945ca90/bindingx_weex_plugin-1.0.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

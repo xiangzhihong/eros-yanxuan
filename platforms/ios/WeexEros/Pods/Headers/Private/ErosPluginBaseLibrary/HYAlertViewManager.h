@@ -1,0 +1,1 @@
+../../../ErosPluginBaseLibrary/Source/BMCustomUI/HYAlert/HYAlertViewManager.h

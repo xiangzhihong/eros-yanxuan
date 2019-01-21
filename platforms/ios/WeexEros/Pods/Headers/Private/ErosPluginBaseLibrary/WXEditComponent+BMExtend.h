@@ -1,0 +1,1 @@
+../../../ErosPluginBaseLibrary/Source/BMWeexExtension/WXEditComponent+BMExtend.h

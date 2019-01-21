@@ -1,0 +1,1 @@
+../../../ErosPluginBaseLibrary/Source/BMExtension/FDFullscreenPopGesture/UINavigationController+FDFullscreenPopGesture.h
