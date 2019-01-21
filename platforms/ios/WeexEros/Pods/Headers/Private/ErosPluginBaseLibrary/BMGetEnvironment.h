@@ -1,0 +1,1 @@
+../../../ErosPluginBaseLibrary/Source/BMWeexExtension/BMGetEnvironment.h

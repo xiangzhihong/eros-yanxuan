@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.weex.plugin:processor:1.0.2@jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.weex.plugin/processor/1.0.2/d1906f58543e1b22b62024d4c8c5c3dfe1e603fe/processor-1.0.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.weex.plugin/processor/1.0.2/acd1dcb69cb9e75dfb7704896078b68d79e15ea6/processor-1.0.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

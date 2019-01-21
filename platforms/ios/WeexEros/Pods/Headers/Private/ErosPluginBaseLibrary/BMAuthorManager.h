@@ -1,0 +1,1 @@
+../../../ErosPluginBaseLibrary/Source/BMManager/AuthorLogin/BMAuthorManager.h

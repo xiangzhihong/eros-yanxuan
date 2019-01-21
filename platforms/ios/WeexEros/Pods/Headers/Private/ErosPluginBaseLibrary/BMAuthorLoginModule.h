@@ -1,0 +1,1 @@
+../../../ErosPluginBaseLibrary/Source/BMModule/AuthorizedLogin/BMAuthorLoginModule.h

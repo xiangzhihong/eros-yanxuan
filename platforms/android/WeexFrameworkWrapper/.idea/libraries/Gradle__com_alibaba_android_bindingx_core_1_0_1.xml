@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.alibaba.android:bindingx-core-1.0.1">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/bindingx-core-1.0.1.aar/649c2773357876f9b71985764f584f0a/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/bindingx-core-1.0.1.aar/649c2773357876f9b71985764f584f0a/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/bindingx-core-1.0.1.aar/649c2773357876f9b71985764f584f0a/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.alibaba.android/bindingx-core/1.0.1/59d93594bdac9e09a8ac8fa66bc51c2bc865744d/bindingx-core-1.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

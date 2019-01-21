@@ -1,0 +1,273 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - BindingX (1.0.3):
+    - WeexPluginLoader
+    - WeexSDK
+  - CTMediator (13)
+  - ErosPluginBaseLibrary (1.3.4):
+    - CTMediator (= 13)
+    - ErosPluginBaseLibrary/BMComponent (= 1.3.4)
+    - ErosPluginBaseLibrary/BMController (= 1.3.4)
+    - ErosPluginBaseLibrary/BMCustomUI (= 1.3.4)
+    - ErosPluginBaseLibrary/BMDebug (= 1.3.4)
+    - ErosPluginBaseLibrary/BMDevice (= 1.3.4)
+    - ErosPluginBaseLibrary/BMExtension (= 1.3.4)
+    - ErosPluginBaseLibrary/BMHandler (= 1.3.4)
+    - ErosPluginBaseLibrary/BMManager (= 1.3.4)
+    - ErosPluginBaseLibrary/BMModel (= 1.3.4)
+    - ErosPluginBaseLibrary/BMModule (= 1.3.4)
+    - ErosPluginBaseLibrary/BMNetwork (= 1.3.4)
+    - ErosPluginBaseLibrary/BMTransition (= 1.3.4)
+    - ErosPluginBaseLibrary/BMWeexExtension (= 1.3.4)
+    - ErosPluginBaseLibrary/ErosApp (= 1.3.4)
+    - Masonry (= 1.1.0)
+    - MJRefresh (= 3.1.12)
+    - SDWebImage (= 3.7.6)
+    - SocketRocket (= 0.4.2)
+    - SSZipArchive (= 1.6.2)
+    - YTKNetwork (= 2.0.3)
+    - YYModel (= 1.0.4)
+    - YYText (= 1.0.7)
+  - ErosPluginBaseLibrary/BMComponent (1.3.4):
+    - CTMediator (= 13)
+    - FSCalendar (= 2.7.8)
+    - Masonry (= 1.1.0)
+    - MJRefresh (= 3.1.12)
+    - SDWebImage (= 3.7.6)
+    - SocketRocket (= 0.4.2)
+    - SSZipArchive (= 1.6.2)
+    - YTKNetwork (= 2.0.3)
+    - YYModel (= 1.0.4)
+    - YYText (= 1.0.7)
+  - ErosPluginBaseLibrary/BMController (1.3.4):
+    - CTMediator (= 13)
+    - Masonry (= 1.1.0)
+    - MJRefresh (= 3.1.12)
+    - SDWebImage (= 3.7.6)
+    - SocketRocket (= 0.4.2)
+    - SSZipArchive (= 1.6.2)
+    - YTKNetwork (= 2.0.3)
+    - YYModel (= 1.0.4)
+    - YYText (= 1.0.7)
+  - ErosPluginBaseLibrary/BMCustomUI (1.3.4):
+    - CTMediator (= 13)
+    - Masonry (= 1.1.0)
+    - MJRefresh (= 3.1.12)
+    - SDWebImage (= 3.7.6)
+    - SocketRocket (= 0.4.2)
+    - SSZipArchive (= 1.6.2)
+    - YTKNetwork (= 2.0.3)
+    - YYModel (= 1.0.4)
+    - YYText (= 1.0.7)
+  - ErosPluginBaseLibrary/BMDebug (1.3.4):
+    - CTMediator (= 13)
+    - Masonry (= 1.1.0)
+    - MJRefresh (= 3.1.12)
+    - SDWebImage (= 3.7.6)
+    - SocketRocket (= 0.4.2)
+    - SSZipArchive (= 1.6.2)
+    - YTKNetwork (= 2.0.3)
+    - YYModel (= 1.0.4)
+    - YYText (= 1.0.7)
+  - ErosPluginBaseLibrary/BMDevice (1.3.4):
+    - CTMediator (= 13)
+    - Masonry (= 1.1.0)
+    - MJRefresh (= 3.1.12)
+    - SDWebImage (= 3.7.6)
+    - SocketRocket (= 0.4.2)
+    - SSZipArchive (= 1.6.2)
+    - YTKNetwork (= 2.0.3)
+    - YYModel (= 1.0.4)
+    - YYText (= 1.0.7)
+  - ErosPluginBaseLibrary/BMExtension (1.3.4):
+    - CTMediator (= 13)
+    - Masonry (= 1.1.0)
+    - MJRefresh (= 3.1.12)
+    - SDWebImage (= 3.7.6)
+    - SocketRocket (= 0.4.2)
+    - SSZipArchive (= 1.6.2)
+    - YTKNetwork (= 2.0.3)
+    - YYModel (= 1.0.4)
+    - YYText (= 1.0.7)
+  - ErosPluginBaseLibrary/BMHandler (1.3.4):
+    - CTMediator (= 13)
+    - Masonry (= 1.1.0)
+    - MJRefresh (= 3.1.12)
+    - SDWebImage (= 3.7.6)
+    - SocketRocket (= 0.4.2)
+    - SSZipArchive (= 1.6.2)
+    - YTKNetwork (= 2.0.3)
+    - YYModel (= 1.0.4)
+    - YYText (= 1.0.7)
+  - ErosPluginBaseLibrary/BMManager (1.3.4):
+    - CTMediator (= 13)
+    - Masonry (= 1.1.0)
+    - MJRefresh (= 3.1.12)
+    - SDWebImage (= 3.7.6)
+    - SocketRocket (= 0.4.2)
+    - SSZipArchive (= 1.6.2)
+    - YTKNetwork (= 2.0.3)
+    - YYModel (= 1.0.4)
+    - YYText (= 1.0.7)
+  - ErosPluginBaseLibrary/BMModel (1.3.4):
+    - CTMediator (= 13)
+    - Masonry (= 1.1.0)
+    - MJRefresh (= 3.1.12)
+    - SDWebImage (= 3.7.6)
+    - SocketRocket (= 0.4.2)
+    - SSZipArchive (= 1.6.2)
+    - YTKNetwork (= 2.0.3)
+    - YYModel (= 1.0.4)
+    - YYText (= 1.0.7)
+  - ErosPluginBaseLibrary/BMModule (1.3.4):
+    - BindingX (= 1.0.3)
+    - CTMediator (= 13)
+    - Masonry (= 1.1.0)
+    - MJRefresh (= 3.1.12)
+    - Realm (= 3.1.0)
+    - SDWebImage (= 3.7.6)
+    - SocketRocket (= 0.4.2)
+    - SSZipArchive (= 1.6.2)
+    - TZImagePickerController (= 3.1.2)
+    - YTKNetwork (= 2.0.3)
+    - YYModel (= 1.0.4)
+    - YYText (= 1.0.7)
+  - ErosPluginBaseLibrary/BMNetwork (1.3.4):
+    - CTMediator (= 13)
+    - Masonry (= 1.1.0)
+    - MJRefresh (= 3.1.12)
+    - SDWebImage (= 3.7.6)
+    - SocketRocket (= 0.4.2)
+    - SSZipArchive (= 1.6.2)
+    - YTKNetwork (= 2.0.3)
+    - YYModel (= 1.0.4)
+    - YYText (= 1.0.7)
+  - ErosPluginBaseLibrary/BMTransition (1.3.4):
+    - CTMediator (= 13)
+    - Masonry (= 1.1.0)
+    - MJRefresh (= 3.1.12)
+    - SDWebImage (= 3.7.6)
+    - SocketRocket (= 0.4.2)
+    - SSZipArchive (= 1.6.2)
+    - YTKNetwork (= 2.0.3)
+    - YYModel (= 1.0.4)
+    - YYText (= 1.0.7)
+  - ErosPluginBaseLibrary/BMWeexExtension (1.3.4):
+    - CTMediator (= 13)
+    - Masonry (= 1.1.0)
+    - MJRefresh (= 3.1.12)
+    - SDWebImage (= 3.7.6)
+    - SocketRocket (= 0.4.2)
+    - SSZipArchive (= 1.6.2)
+    - YTKNetwork (= 2.0.3)
+    - YYModel (= 1.0.4)
+    - YYText (= 1.0.7)
+  - ErosPluginBaseLibrary/ErosApp (1.3.4):
+    - CTMediator (= 13)
+    - Masonry (= 1.1.0)
+    - MJRefresh (= 3.1.12)
+    - SDWebImage (= 3.7.6)
+    - SocketRocket (= 0.4.2)
+    - SSZipArchive (= 1.6.2)
+    - YTKNetwork (= 2.0.3)
+    - YYModel (= 1.0.4)
+    - YYText (= 1.0.7)
+  - FSCalendar (2.7.8)
+  - Masonry (1.1.0)
+  - MJRefresh (3.1.12)
+  - Realm (3.1.0):
+    - Realm/Headers (= 3.1.0)
+  - Realm/Headers (3.1.0)
+  - SDWebImage (3.7.6):
+    - SDWebImage/Core (= 3.7.6)
+  - SDWebImage/Core (3.7.6)
+  - SocketRocket (0.4.2)
+  - SSZipArchive (1.6.2)
+  - TZImagePickerController (3.1.2)
+  - WeexPluginLoader (0.0.1.9.1):
+    - WeexSDK
+  - WeexSDK (0.19.0)
+  - WXDevtool (0.15.3):
+    - WeexSDK
+  - YTKNetwork (2.0.3):
+    - AFNetworking (~> 3.0)
+  - YYModel (1.0.4)
+  - YYText (1.0.7)
+
+DEPENDENCIES:
+  - ErosPluginBaseLibrary (from `https://github.com/bmfe/eros-plugin-ios-baseLibrary.git`, tag `1.3.4`)
+  - WeexSDK (from `https://github.com/bmfe/WeexiOSSDK.git`, tag `0.19`)
+  - WXDevtool (= 0.15.3)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - BindingX
+    - CTMediator
+    - FSCalendar
+    - Masonry
+    - MJRefresh
+    - Realm
+    - SDWebImage
+    - SocketRocket
+    - SSZipArchive
+    - TZImagePickerController
+    - WeexPluginLoader
+    - WXDevtool
+    - YTKNetwork
+    - YYModel
+    - YYText
+
+EXTERNAL SOURCES:
+  ErosPluginBaseLibrary:
+    :git: https://github.com/bmfe/eros-plugin-ios-baseLibrary.git
+    :tag: 1.3.4
+  WeexSDK:
+    :git: https://github.com/bmfe/WeexiOSSDK.git
+    :tag: '0.19'
+
+CHECKOUT OPTIONS:
+  ErosPluginBaseLibrary:
+    :git: https://github.com/bmfe/eros-plugin-ios-baseLibrary.git
+    :tag: 1.3.4
+  WeexSDK:
+    :git: https://github.com/bmfe/WeexiOSSDK.git
+    :tag: '0.19'
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  BindingX: b3c6c1c5dcd8e50277cfc5daad09d7010c227524
+  CTMediator: 4cbf8ede42efc6b31715be88b78bdc9d94efa840
+  ErosPluginBaseLibrary: c4c14229c6e491cc8a6b261f34458515e30d4cbd
+  FSCalendar: 09369a2bf554ba71cd8e8cfb627e2df22a2c2af4
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
+  Realm: 09513d7c054678d65cd02ce09871f805b0d758ac
+  SDWebImage: c325cf02c30337336b95beff20a13df489ec0ec9
+  SocketRocket: ffe08119b00ef982f6c37052a4705a057c8494ad
+  SSZipArchive: 428eb1ac8d37dd133404d30f422b23958c1f9acc
+  TZImagePickerController: 29b279caee3309cbaa04ef1384b036ec90297f3f
+  WeexPluginLoader: 85c1304f8ba29864e58531614a0acfeceef1b85c
+  WeexSDK: 43aab56ab9e62b03c84857bdf3f27412451c8760
+  WXDevtool: 6c837383e778a9442ee500db4069a95be321dac6
+  YTKNetwork: c4b0c29c9d639dc050d475de69ee626d53eac598
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+  YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
+
+PODFILE CHECKSUM: 37ae8af232df7993f8eb03bd8bdbb05bb55da875
+
+COCOAPODS: 1.6.0.beta.2

@@ -1,0 +1,1 @@
+../../../WeexSDK/WeexSDK/Sources/Manager/WXComponentManager.h

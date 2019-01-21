@@ -1,0 +1,1 @@
+../../../WeexSDK/WeexSDK/Sources/Component/WXSwitchComponent.h
