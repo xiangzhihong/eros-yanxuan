@@ -44,9 +44,12 @@ $ open WeexEros.xcworkspace // 自动打开项目
 ![ABC](https://github.com/xiangzhihong/eros-yanxuan/blob/master/screen/0.jpg) 
 
 ## Question
-运行过程中出现问题在以下地址解决方法，如果没有找到，请加群：515980159
+运行过程中出现问题在以下地址解决方法，如果没有找到，可以参考[eros快速入门](https://juejin.im/post/5c01f249e51d4566754074c2)新建一个Weex工程，然后将src和配置文件的代码拷贝过去。 如果还有问题，请加群：515980159
+
+- [eros快速入门](https://juejin.im/post/5c01f249e51d4566754074c2)
 - [eros issue](https://github.com/bmfe/eros-template/issues)
 - [eros Q&A](https://bmfe.github.io/eros-docs/#/zh-cn/QA)
+
 
 
 
