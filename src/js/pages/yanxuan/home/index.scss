@@ -121,3 +121,18 @@ body {
   align-self: center;
   color: #777777;
 }
+
+.mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #e0000000;
+}
+.mask-image {
+  height: 700px;
+  width: 560px;
+  align-items: center;
+  border-radius: 30px;
+}

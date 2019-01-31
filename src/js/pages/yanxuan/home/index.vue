@@ -39,6 +39,22 @@
         <!-- <bmmask animation="center" position="center" class="mask" :duration="300" ref="channel" disableMaskEvent="true"> -->
         <channel @change="onchange" ref="topChannel" :activeIndex="activeIndex"></channel>
         <!-- </bmmask> -->
+
+        <div class="mask" v-if="showMask">
+            <wxc-mask height="700"
+                      width="560"
+                      border-radius="30"
+                      duration="300"
+                      :has-overlay="true"
+                      :show-close="true"
+                      :show="show"
+                      :has-animation="hasAnimation"
+                      @wxcMaskSetHidden="wxcMaskSetHidden">
+                <div>
+                    <image class="mask-image" resize="cover" src="bmlocal://assets/home_mask.png"></image>
+                </div>
+            </wxc-mask>
+        </div>
     </div>
 </template>
 <script>
@@ -49,8 +65,8 @@
     import block1 from './block1';
     import block2 from './block2';
     import block3 from './block3';
-    import mask from './mask';
     import {BLOCK1, GOODS1, GOODS2, GOODS3} from './config'
+    import {WxcMask} from 'weex-ui';
 
     export default {
         components: {
@@ -61,13 +77,15 @@
             'block-1': block1,
             'block-2': block2,
             'block-3': block3,
-            'mask': mask
+            'wxc-mask': WxcMask
         },
         created() {
             this.init()
         },
         data() {
             return {
+                showMask: true,
+                show: true,
                 block1: {
                     title: '',
                     url: '',
@@ -128,6 +146,10 @@
             },
             onchange(index) {
                 console.log(index);
+            },
+            wxcMaskSetHidden() {
+                this.show = false;
+                this.showMask = false;
             },
             jumpWeb(url) {
                 this.$router.toWebView({
